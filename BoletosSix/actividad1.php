@@ -99,7 +99,7 @@
         } elseif ($boletos == 0) { ?>
         <h1>No se especificó el número de boletos</h1> 
     <?php } elseif ($boletos > 15){ ?>
-        <h1>Se excedió el número máximo de boletos</h1> 
+        <h1>Se excedió el número máximo de boletos, falta(n) <?php echo $boletos - 15?> boleto(s) </h1> 
     <?php } ?>
 </body>
 
