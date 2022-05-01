@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="./actividad1.php" method="post">
+        <fieldset>
+            <legend>Boleto de Six</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad"><br><br>
+            <label for="direccion">Dirección: </label>
+            <input type="text" id="direccion" name="direccion"><br><br>
+            <label for="boletos">Número de boletos: </label>
+            <input placeholder="1-15" type="number" id="boletos" name="boletos"><br><br>
+            <label>Tipo de boleto: </label>
+            <select id="tipo_boleto" name="tipo_boleto">
+                <option value="1">Normal</option>
+                <option value="2">Flash Pass</option>
+                <option value="3">Boleto infantil</option>
+                <option value="4">Festival de Terror</option>
+                <option value="5">Experiencia VIP</option>
+            </select><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
